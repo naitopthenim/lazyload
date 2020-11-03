@@ -9,6 +9,9 @@
  * Project home:
  *   https://appelsiini.net/projects/lazyload
  *
+ * Git Hub:
+ *  https://github.com/naitopthenim/lazyload
+ *
  * Version: 2.0.0-rc.2
  *
  */
