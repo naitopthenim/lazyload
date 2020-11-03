@@ -6,6 +6,9 @@
   "repository": "https://github.com/tuupola/lazyload.git",
   "author": "Mika Tuupola <tuupola@appelsiini.net>",
   "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/uglifyjs lazyload.js --compress --mangle --source-map --output lazyload.min.js"
+  },
   "keywords": [
     "lazyload"
   ],
