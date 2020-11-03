@@ -1,3 +1,10 @@
+# Lazy Load Install
+- git clone https://github.com/naitopthenim/lazyload.git
+- npm i or npm install
+
+# Lazy Load Build
+- npm run build
+
 # Lazy Load Remastered
 
 Lazy Load delays loading of images in long web pages. Images outside of viewport will not be loaded before user scrolls to them. This is opposite of image preloading.
