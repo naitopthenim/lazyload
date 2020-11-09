@@ -33,7 +33,7 @@
       root = window;
     }
 
-    const defaults = {
+    var defaults = {
       src: "data-src",
       srcset: "data-srcset",
       selector: ".lazyload",
@@ -49,7 +49,7 @@
      * @param {Object}   objects  The objects to merge together
      * @returns {Object}          Merged values of defaults and options
      */
-    const extend = function () {
+    var extend = function () {
       var extended = {};
       var deep = false;
       var i = 0;
@@ -178,7 +178,7 @@
     };
 
     if (root.jQuery) {
-      const $ = root.jQuery;
+      var $ = root.jQuery;
       $.fn.lazyload = function (options) {
         options = options || {};
         options.attribute = options.attribute || "data-src";
